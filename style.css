@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box; 
+
+}
+
+.SectionHeader {
+    text-align: center; 
+    padding: 2%;
+}
+div.CalculatorSection {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;   
+}
+div.CalculatorSection div.Calculator {
+border: 2px ridge black;
+padding: 4%;
+border-radius: 10px;
+width: 90%;
+max-width: 500px;
+margin-top: 3%;
+}
+
+div.CalculatorSection div.Calculator form {
+    display: table; 
+    margin: 0px auto;
+} 
+
+div.CalculatorSection div.Calculator form div {
+    display: table-row;
+
+}
+
+div.CalculatorSection div.Calculator form div label {
+    display: table-cell;
+
+}
+
+div.CalculatorSection div.Calculator form div input {
+ display: table-cell;
+ margin-bottom: 5px;
+ padding: 2%;
+ margin-left: 3%;
+ outline: none;
+ font-size: 20px;
+ width: 90%;
+
+}
+
+div.CalculatorSection div.Calculator div.BTND {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div.CalculatorSection div.Calculator div.BTND button.BTM {
+    background-color: aqua;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+p.Result {
+    text-align: center;
+    margin-top: 2%;
+}
